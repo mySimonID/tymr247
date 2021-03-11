@@ -1,0 +1,424 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+body {
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 2.25em;
+  line-height: 1.35;
+  color: #800080;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  margin-top: 9px;
+  /*margin-left: 15px;*/
+  font-size: 1.25em;
+  line-height: 1.35;
+  color: #008080;
+}
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  background-size: cover;
+  background-color: #898888;
+  height: 300px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .jumbotron {
+    height: 150px;
+  }
+}
+
+.jumbotron-background {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.jumbotron-background img {
+  width: 100%;
+}
+
+img.blur {
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+.titleLink {
+  background-color: blue;
+}
+
+/*-------------------*/
+.feature-area {
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .feature-area {
+    width: 100%;
+  }
+}
+
+/*-------------------*/
+.row-feature-first {
+  display: flex;
+  margin-top: 2.5em;
+  /* padding-top: 2.5em; */
+  margin-left: 15px;
+  margin-right: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.row-feature {
+  border-top: 1px solid rgba(0, 128, 128, .5);
+  display: flex;
+  margin-top: 2.5em;
+  padding-top: 2.5em;
+  margin-left: 15px;
+  margin-right: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+.column-text {
+  margin-top: 2.5em;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.container-features {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.max-width {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/* #title {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+} */
+.headerArea {
+  margin-top: -1.5rem;
+  padding-top: 0rem;
+  padding-left: 3.0rem;
+}
+
+.headingTitle {
+  font-size: 2.5rem;
+}
+
+.headingSubTitle {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-size: 1.75em;
+    line-height: 1.35;
+    color: #800080;
+  }
+
+  h3 {
+    font-size: 1.0em;
+  }
+
+  h4 {
+    margin-top: 9px;
+    /*margin-left: 15px;*/
+    font-size: 1.0em;
+    line-height: 1.35;
+    color: #008080;
+  }
+
+  .headerArea {
+    margin-top: -1.5rem;
+    padding-top: 0rem;
+    padding-left: 1.0rem;
+  }
+
+  .headingTitle {
+    font-size: 4.0rem;
+  }
+
+  .headingSubTitle {
+    font-size: 2.5rem;
+  }
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+  padding-left: 0px;
+  padding-right: 0px;
+  min-height: 500px;
+  width: 100%;
+}
+
+.subpage-content {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 80%;
+  min-height: 500px;
+}
+
+.descriptionText {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  text-align: center;
+  font-size: 24px;
+  color: #008080;
+}
+
+.feature-text {
+  color: #008080;
+  font-size: 18px;
+  text-align: center;
+}
+
+.text-screen-headings {
+  margin-bottom: 30px;
+  color: #008080;
+  font-size: 24px;
+  text-align: center;
+}
+
+.Xpage-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.headerStyle {
+  background-color: #008080;
+}
+
+.footerStyle {
+  background-color: #008080;
+}
+
+/*-----------------------*/
+code {
+  font-size: 80%;
+}
+
+.drop-shadow {
+  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
+}
+
+.footerX {
+  height: 60px;
+  background-color: white;
+  margin-top: 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.icon {
+  position: relative;
+  height: 48px;
+  width: 48px;
+  float: left;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.icon-text {
+  /*margin-left: 73px;*/
+  padding: 0px 25px 25px 0px;
+}
+
+.head-title {
+  color: #808080;
+  font-size: 3rem;
+  font-weight: 700;
+  /*margin-left: 15px;*/
+}
+
+a.txt-link {
+  /*margin-left: 15px;*/
+}
+
+.botm-line {
+  background-color: #888;
+  width: 100%;
+  height: 1px;
+  display: inline-block;
+}
+
+.screenshot {
+  align-content: center;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-placeholder {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-filter: drop-shadow(5px 5px 5px #aaa);
+  filter: drop-shadow(5px 5px 5px #aaa);
+}
+
+/* FOR MOBILE */
+@media (max-width: 768px) {
+
+  /* For mobile phones:*/
+  .img-placeholder {
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 41.666667%; */
+  }
+}
+
+/* footer */
+#footer {
+  color: white;
+  border-top: 1px solid #eee;
+  margin-top: 7px;
+  padding: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  background-color: #7a7a7a;
+}
+
+#footer p {
+  font-size: 0.75em;
+  padding-left: 15px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/** COOKIES **/
+.cookieConsent {
+  display: none;
+  position: absolute;
+  padding: 15px;
+  top: 6%;
+  left: 25%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
+  background-color: white;
+  /* background-color: black; */
+  border: 2px solid #800080;
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  text-align: left;
+}
+
+.cookieConsentTitle {
+  width: 100%;
+  font-weight: 500;
+  color: #000;
+  font-size: 1.6em;
+}
+
+.cookieConsentSubText {
+  margin-top: 0px;
+  font-size: 1.25em;
+  line-height: 1.35;
+  color: #008080;
+}
+
+.cookieConsentOK {
+  margin-top: 25px;
+  text-align: right;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .cookieConsent {
+    display: none;
+    top: 3%;
+    left: 10%;
+    width: 80%;
+  }
+
+  .cookieConsentTitle {
+    font-size: 1.1em;
+  }
+
+  .cookieConsentSubText {
+    font-size: 1.0em;
+  }
+}
+
+.cookieConsent a {
+  width: 50%;
+  background-color: #008080;
+  color: white;
+  padding-top: 10px;
+  padding: 7px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 100%;
+  border: 2px solid rgba(0, 128, 128, .5);
+  border-radius: 10px;
+}
+
+/* POLICY */
+.policyContainer
+{
+  padding: 15px;
+}

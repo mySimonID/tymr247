@@ -1,0 +1,40 @@
+.parallax {
+    /* The image used
+    background-image: url("/img/img_parallax.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divider {
+    height: 50px;
+}
+
+.sectionp {
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: auto;
+}
+
+.bg-1  {
+    background: url('../images/Clock3.jpeg') no-repeat center center fixed;
+    color: #fff;
+    background-size: cover;
+}
+
+.bg-2 {
+    background: url('../images/Clock4.jpeg') no-repeat top center fixed;
+    color: #fff;
+    background-size: cover;
+}
+
+.bg-3 {
+    background: url('../images/Clock5.jpeg') no-repeat bottom center fixed;
+    color: #fff;
+    background-size: cover;
+}

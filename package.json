@@ -1,0 +1,24 @@
+{
+  "homepage": "https://mysimonid.github.io/tymr247/",
+  "name": "tymr247",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mySimonID/tymr247.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mySimonID/tymr247/issues"
+  },
+  "homepage": "https://github.com/mySimonID/tymr247#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

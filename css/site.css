@@ -343,7 +343,7 @@ a.txt-link {
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   #footer p {
     font-size: 1.2em;
   }

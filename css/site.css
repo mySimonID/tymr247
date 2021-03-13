@@ -343,9 +343,12 @@ a.txt-link {
   color: white;
 }
 
-@media (max-width: 600px) {
-  #footer p {
-    font-size: 1.5em;
+.footer-text {
+  font-size: 0.75em;
+}
+@media only screen and (max-width: 600px) {
+  .footer-text {
+    font-size: 1.75em !important;
   }
 }
 
